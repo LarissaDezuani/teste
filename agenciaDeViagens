@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T18:21:55.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="FSO1aw35fCR4iAnO2W7D" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-28T20:23:39.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="LaovlDTsx0oqf8CzG-W9" version="15.6.2" type="github">
   <diagram id="VzoIx_W3UIhMn1fAO9Sp" name="Page-1">
-    <mxGraphModel dx="1332" dy="621" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="weImmW9fRF1naiKQvhOw-1" value="cadastroCliente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="14" y="233" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="weImmW9fRF1naiKQvhOw-2" value="+ nome: String;&#xa;+ CPF: int;&#xa;+ RG: int;&#xa;+ telefone: int;&#xa;+ email: String;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="weImmW9fRF1naiKQvhOw-1">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="weImmW9fRF1naiKQvhOw-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="weImmW9fRF1naiKQvhOw-1">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="weImmW9fRF1naiKQvhOw-4" value="+ InserirDadosVoo()&#xa;+ cancelamentoVoo()&#xa;+ formaPagamento" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="weImmW9fRF1naiKQvhOw-1">
+          <mxGeometry y="118" width="160" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="weImmW9fRF1naiKQvhOw-5" value="cadastroDestino" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="251" y="238" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="weImmW9fRF1naiKQvhOw-6" value="+ destino: String;&#xa;+ partida: String;&#xa;+ horarioVoo: int;&#xa;+ dataVoo: int;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="weImmW9fRF1naiKQvhOw-5">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="weImmW9fRF1naiKQvhOw-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="weImmW9fRF1naiKQvhOw-5">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="weImmW9fRF1naiKQvhOw-8" value="+ passagemDisponivel()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="weImmW9fRF1naiKQvhOw-5">
+          <mxGeometry y="118" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="weImmW9fRF1naiKQvhOw-14" value="agenciaDeViagem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="130" y="32" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="weImmW9fRF1naiKQvhOw-15" value="+local: String;&#xa;+passagem: String;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="weImmW9fRF1naiKQvhOw-14">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="weImmW9fRF1naiKQvhOw-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="weImmW9fRF1naiKQvhOw-14">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="weImmW9fRF1naiKQvhOw-17" value="+  ExibirCliente() &#xa;+  ExibirDestino()&#xa;+  VerificarDadosVoo()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="weImmW9fRF1naiKQvhOw-14">
+          <mxGeometry y="118" width="160" height="72" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
